@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Employee Registration Form</title>
+    <style>
+        body {
+            font-family: Arial;
+	    justify-content: center
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+     </style>
+</head>
+<body>
+        <h2>Employee Registration Form</h2>
+        <form>
+            <label for="firstName">First name</label><br/>
+            <input type="text" id="firstName" name="firstName" required><br/>
+            <label for="lastName">Last name</label><br/>
+            <input type="text" id="lastName" name="lastName" required><br/>
+            <label for="email">Email</label><br/>
+            <input type="email" id="email" name="email" required><br/>
+            <label>Gender</label><br/>
+	    <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male" style="display: inline;">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female" style="display: inline;">Female</label><br/>
+            <label for="Designation">Designation</label><br/>
+            <input type="text" id="Designation" name="Designation" required><br/>
+            <label for="Department">Department</label><br/>
+            <input type="text" id="Department" name="Department" required><br/>
+            <label for="Salary">Salary</label><br/>
+            <input type="number" id="Salary" name="Salary" required><br/>
+	    <label for="Address">Address</label><br/>
+            <input type="text" id="Address" name="Address" required><br/>
+            <label for="city">City</label><br/>
+            <input type="text" id="city" name="city" required><br/>
+            <label for="country">Country</label><br/>
+            <select id="country" name="country" required>
+                <option value="United States">United States</option>
+                <option value="India">India</option>
+		<option value="Australia">Australia</option>
+		<option value="Germany">Germany</option>
+		<option value="Canada">Canada</option>
+            </select><br/>
+            <input type="submit" value="Register">
+
+        </form>
+</body>
+</html>
